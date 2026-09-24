@@ -13,3 +13,10 @@ jobs:
         run: uname -a
       - name: Show myself
         run: echo "Hello, Aanvi here!"
+    build:
+      - name: Print message
+        run: echo "Hello from GitHub Actions!"
+      - name: Show date
+        run: date
+      - name: Show operating system
+        run: uname -a
